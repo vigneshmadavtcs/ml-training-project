@@ -248,7 +248,7 @@ def main():
         save_metrics(accuracy)
 
         logger.info("Training pipeline completed successfully.")
-        logger.info("All artifacts saved.")
+        logger.info("Training finished.")
 
     except Exception:
         logger.exception("Pipeline execution failed.")
