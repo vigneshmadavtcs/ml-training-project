@@ -248,7 +248,7 @@ def main():
         save_metrics(accuracy)
 
         logger.info("Training pipeline completed successfully.")
-        logger.info("Training completed with metrics saved.")
+        logger.info("Training completed with metrics saved with effort.")
 
     except Exception:
         logger.exception("Pipeline execution failed.")
